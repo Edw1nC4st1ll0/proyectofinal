@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:::: Contáctame ::::</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900" rel="stylesheet ">
+    <link rel="stylesheet" href="estilos/Style.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="imagenes/logo1.png" alt="Mi logotipo"></a>
+        </div>
+        <div class="contenedor_menus">
+            <nav class="menuBotones">
+                <a href="index.html">Inicio</a>
+                <a href="sobreMi.html">Sobre Mi</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="portafolio.html">Portafolio</a>
+                <a href="videoGamer.html">Videogamer</a>
+                <a href="contactame.html">Contactame</a>
+            </nav>
+            <div class="menuRedes">
+                <h3>Mis Redes Sociales</h3>
+                <a href="https://www.facebook.com/yarinsum41" target="_blank"><img src="imagenes/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/ingedwinc4st1ll0/" target="_blank"><img src="imagenes/instagram.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/channel/UCMGmFbdd1eseSpGL8lu1zJg" target="_blank"><img src="imagenes/youtube.png" alt="Youtube"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="imagenes/twitter.png" alt="Twiter"></a>
+                <a href="https://www.linkedin.com/in/yarincastillo/" target="_blank"><img src="imagenes/linkedin.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor-seccion">
+            <h2 class="encabezado-sobreMi">Contáctame</h2>
+            <!--Contenedor principal Contactame-->
+            <div class="contenedor-prinForm">
+                <div class="textos-maps">
+                    <!--Contenedor Mapa-textos-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127253.63118953846!2d-74.27592396625693!3d4.651754622903688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7835577df787%3A0xfe4076aa4af1d48!2sMadrid%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1608691975394!5m2!1ses-419!2sco"
+                        width="700" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <p>"Te contactaré en el menor tiempo posible, deja la información detallada para falicitar nuestra comunicacion, breveente comentamé acerca del area de interes en la cual te pueda ayudar, con seguridad haremos negocio y haras parte de
+                        las referencias Bonitas"</p>
+                </div>
+                <div class="contenedor-formulario">
+                    <!--Contenedor Form-->
+                    <form>
+                        <fieldset>
+                            <!--Agrupa campos y los enmarca-->
+                            <legend>Información Personal</legend>
+                            <!--Nombre para el enmarcado-->
+
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" placeholder="Tu Nombre">
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" id="telefono" placeholder="Tu Teléfono">
+
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Contacto</legend>
+
+                            <p>Como desea ser Contacto</p>
+                            <div class="forma-contacto">
+                                <label for="telefono">Teléfono</label>
+                                <input type="radio" name="contacto" value="telefono" id="telefono">
+
+                                <label for="correo">E-mail</label>
+                                <input type="radio" name="contacto" value="correo" id="correo">
+                            </div>
+
+                            <p>Si eligió Teléfono, elija la fecha y la hora</p>
+                            <label for="fecha">Fecha:</label>
+                            <input type="date" id="fecha">
+                            <label for="hora">Hora:</label>
+                            <input type="time" id="hora">
+
+                        </fieldset>
+
+                        <input class="boton-enviar" type="submit" value="ENVIAR" class="boton boton-verde">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>elingeniodeyarincastillo.com. Copyright 2020 Todos los derechos reservados</h4>
+            <h4>Codiciones generales de contratación</h4>
+            <h4>Politicas legales</h4>
+            <h4>Madrid-Cundinamarca - Colombia</h4>
+        </div>
+        <div>
+            <h2>Contactos Directos</h2>
+            <p><img src="imagenes/whatsapp.png" alt=""> 3212000000</p>
+            <p><img src="imagenes/globo.png" alt=""> 3212000000</p>
+            <p><img src="imagenes/telefono.png" alt=""> 3212000000</p>
+        </div>
+    </footer>
+</body>
+
+</html>
